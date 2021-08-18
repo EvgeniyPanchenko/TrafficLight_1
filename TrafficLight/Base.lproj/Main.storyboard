@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJu-aa-Vzk">
-                                <rect key="frame" x="142" y="764" width="130" height="48"/>
+                                <rect key="frame" x="144.5" y="764" width="125" height="48"/>
                                 <color key="backgroundColor" systemColor="linkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="SZA-HG-eGE"/>
+                                    <constraint firstAttribute="width" secondItem="kJu-aa-Vzk" secondAttribute="height" multiplier="13:5" id="o7E-U4-4R5"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="START">
@@ -37,36 +37,37 @@
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="dOk-Hy-NpF" secondAttribute="height" multiplier="1:1" id="g4L-Td-Bk3"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-dG-EZ5">
                                         <rect key="frame" x="0.0" y="180" width="160" height="160"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ji3-dG-EZ5" secondAttribute="height" multiplier="1:1" id="Ad2-XU-85k"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cR-UE-9Sk">
                                         <rect key="frame" x="0.0" y="360" width="160" height="160"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="8cR-UE-9Sk" secondAttribute="height" multiplier="1:1" id="sAd-3M-g0U"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="dOk-Hy-NpF" firstAttribute="leading" secondItem="m18-Re-g30" secondAttribute="leading" id="MhW-E4-Rmu"/>
-                                    <constraint firstItem="dOk-Hy-NpF" firstAttribute="leading" secondItem="ji3-dG-EZ5" secondAttribute="leading" id="bNf-qE-219"/>
-                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="centerY" secondItem="m18-Re-g30" secondAttribute="centerY" id="cuy-l7-jQF"/>
-                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="top" secondItem="m18-Re-g30" secondAttribute="top" constant="180" id="hYZ-nv-piq"/>
-                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="leading" secondItem="8cR-UE-9Sk" secondAttribute="leading" id="mu6-1x-Q5J"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kJu-aa-Vzk" secondAttribute="bottom" constant="50" id="5EM-f3-ziy"/>
-                            <constraint firstAttribute="bottom" secondItem="m18-Re-g30" secondAttribute="bottom" constant="282" id="MaP-FR-wLw"/>
-                            <constraint firstItem="m18-Re-g30" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="YDR-uo-kFQ"/>
-                            <constraint firstItem="kJu-aa-Vzk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2R-V3-KPc"/>
-                            <constraint firstItem="m18-Re-g30" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k5A-uE-JDh"/>
-                            <constraint firstItem="m18-Re-g30" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="vjh-NI-zJI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kJu-aa-Vzk" secondAttribute="bottom" constant="50" id="N5Z-oB-ENF"/>
+                            <constraint firstItem="kJu-aa-Vzk" firstAttribute="top" secondItem="m18-Re-g30" secondAttribute="bottom" constant="150" id="P3b-IO-Vcy"/>
+                            <constraint firstItem="m18-Re-g30" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="PE7-JX-Mpv"/>
+                            <constraint firstItem="kJu-aa-Vzk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pbr-Mj-p6U"/>
+                            <constraint firstItem="m18-Re-g30" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qLc-iJ-RgA"/>
                         </constraints>
                     </view>
                     <connections>
