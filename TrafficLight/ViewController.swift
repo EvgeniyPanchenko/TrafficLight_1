@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         yellowLight.alpha = 0.3
         greenLight.alpha = 0.3
         
-        // что то круги совсем не круги, но нужной функции я не нашел :/
+        // что то круги совсем не круги, но нужной функции я не нашел, да и она не особо нравится :/
         redLight.layer.cornerRadius = redLight.frame.size.width / 2
         yellowLight.layer.cornerRadius = yellowLight.frame.size.width / 2
         greenLight.layer.cornerRadius = greenLight.frame.size.width / 2
