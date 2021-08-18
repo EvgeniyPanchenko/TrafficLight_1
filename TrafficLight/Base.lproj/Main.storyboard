@@ -50,23 +50,23 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="centerY" secondItem="m18-Re-g30" secondAttribute="centerY" id="8dC-rQ-Ozd"/>
-                                    <constraint firstItem="dOk-Hy-NpF" firstAttribute="leading" secondItem="m18-Re-g30" secondAttribute="leadingMargin" id="Exm-VD-3Wb"/>
-                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="top" secondItem="m18-Re-g30" secondAttribute="top" constant="180" id="UJX-0L-yeH"/>
-                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="leading" secondItem="8cR-UE-9Sk" secondAttribute="leading" id="x2v-Fc-GSh"/>
-                                    <constraint firstItem="dOk-Hy-NpF" firstAttribute="leading" secondItem="ji3-dG-EZ5" secondAttribute="leading" id="zGI-Ow-dcY"/>
+                                    <constraint firstItem="dOk-Hy-NpF" firstAttribute="leading" secondItem="m18-Re-g30" secondAttribute="leading" id="MhW-E4-Rmu"/>
+                                    <constraint firstItem="dOk-Hy-NpF" firstAttribute="leading" secondItem="ji3-dG-EZ5" secondAttribute="leading" id="bNf-qE-219"/>
+                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="centerY" secondItem="m18-Re-g30" secondAttribute="centerY" id="cuy-l7-jQF"/>
+                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="top" secondItem="m18-Re-g30" secondAttribute="top" constant="180" id="hYZ-nv-piq"/>
+                                    <constraint firstItem="ji3-dG-EZ5" firstAttribute="leading" secondItem="8cR-UE-9Sk" secondAttribute="leading" id="mu6-1x-Q5J"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kJu-aa-Vzk" secondAttribute="bottom" constant="50" id="B4i-vf-wp2"/>
-                            <constraint firstItem="m18-Re-g30" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="ZgS-g7-fFe"/>
-                            <constraint firstItem="kJu-aa-Vzk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mut-9g-Nek"/>
-                            <constraint firstAttribute="bottom" secondItem="m18-Re-g30" secondAttribute="bottom" constant="282" id="tPL-6s-oxa"/>
-                            <constraint firstItem="m18-Re-g30" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uIJ-QD-EBu"/>
-                            <constraint firstItem="m18-Re-g30" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="zTm-jv-X3U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kJu-aa-Vzk" secondAttribute="bottom" constant="50" id="5EM-f3-ziy"/>
+                            <constraint firstAttribute="bottom" secondItem="m18-Re-g30" secondAttribute="bottom" constant="282" id="MaP-FR-wLw"/>
+                            <constraint firstItem="m18-Re-g30" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="YDR-uo-kFQ"/>
+                            <constraint firstItem="kJu-aa-Vzk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d2R-V3-KPc"/>
+                            <constraint firstItem="m18-Re-g30" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k5A-uE-JDh"/>
+                            <constraint firstItem="m18-Re-g30" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="vjh-NI-zJI"/>
                         </constraints>
                     </view>
                     <connections>
