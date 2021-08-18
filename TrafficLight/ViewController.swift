@@ -8,7 +8,9 @@
 import UIKit
 
 enum CurrentLight {
-    case red, yellow, green
+    case red,
+         yellow,
+         green
 }
 
 class ViewController: UIViewController {
@@ -23,10 +25,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // думал завести две константы чтобы забить туда значение alpha 1 и 0.3, но в итоге решил не писать лишнего. Но с константами мне кажется будет все же симпатиШнее))
         redLight.alpha = 0.3
         yellowLight.alpha = 0.3
         greenLight.alpha = 0.3
         
+        //Нашел в гугле такую формулу как круг получить, возможно можно и проще
         redLight.layer.cornerRadius = redLight.frame.size.width / 2
         yellowLight.layer.cornerRadius = yellowLight.frame.size.width / 2
         greenLight.layer.cornerRadius = greenLight.frame.size.width / 2
@@ -36,7 +40,6 @@ class ViewController: UIViewController {
         startButton.setTitle("NEXT", for: .normal)
         
         switch currentLight {
-        
         case .red:
             greenLight.alpha = 0.3
             redLight.alpha = 1
